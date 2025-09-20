@@ -1,6 +1,6 @@
 # RISC V Week 1 Installation Steps
 
-#### <ins>All the instructions for installation of required tools can be found here:</ins>
+#### <ins>All the instructions for installation of required tools can be found here with their respecitve outputs as well!:</ins>
 
 ### **System Requirements**
 - 6 GB RAM
@@ -24,13 +24,16 @@ $ make config-gcc
 $ make  
 $ sudo make install
 ```
+![yosys Installed](images/yosys.jpg)
 #### <ins>**iverilog**</ins>
 ```bash
 $ sudo apt-get update 
 $ sudo apt-get install iverilog
 ```
+![iverilog Installed](images/iverilog.jpg)
  #### <ins>**GTKwave**</ins>
  ```bash
 $ sudo apt-get update 
 $ sudo apt-get install gtkwave
 ```
+![gtkWave Installed](images/gtkwave.jpg)
